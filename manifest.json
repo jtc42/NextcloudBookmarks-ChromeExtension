@@ -1,0 +1,20 @@
+{
+    "name": "Save to Nextcloud Bookmarks",
+    "version": "0.1",
+    "manifest_version": 2,
+    
+    "background": {
+        "scripts": ["loadwindow.js"]
+    },
+
+    "browser_action": {},
+
+    "icons": { 
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png" },
+
+    "permissions": [ 
+        "tabs"
+    ]
+}
